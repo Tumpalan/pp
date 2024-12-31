@@ -1,0 +1,427 @@
+@media (max-width: 81.25rem) {
+    .do-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .do-boxes {
+        text-align: center;
+    }
+
+    .service-title {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 71.875rem) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }   
+
+    .info-container {
+        text-align: center;
+    }
+
+    .img-container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-container::after {
+        content: "";
+        position: absolute;
+        bottom: -80px;
+        left: 270px;
+        background: rgba(80,80,80,.503);
+        width: 25rem;
+        height: 50px;
+        border-radius: 50%;
+        filter: blur(20px);
+        margin-left: 2.5rem;
+      }
+    
+}
+
+@media (max-width: 69.688rem) {
+    .about-container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .txt-container {
+        text-align: center;
+    }
+
+    .experience-list {
+        justify-content: center;
+    }
+
+    .experience-list-1 {
+        justify-content: center;
+    }
+
+    .nu-exp {
+        margin-left: 2rem;
+    } 
+
+    .dl-cv {
+        width: fit-content; 
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    }
+
+    .img-container::after {
+        left: 195px
+    }
+
+    .do-box::after {
+        left: 190px;
+        width: 35rem;
+    }
+
+    .icon-stacks::after {
+        left: -60px;
+        width: 35rem;
+    }
+
+    .pjt-box::after {
+        left: 270px;
+        width: 30rem;
+    }
+
+}
+
+@media (max-width: 64.375rem) {
+    .icon-stacks {
+        grid-template-columns: 1fr;
+    }
+
+    .icon-stack-txt {
+        text-align: center;
+    }
+
+    .img-container::after {
+        left: 170px
+    }
+
+    .do-box::after {
+        left: 150px;
+        width: 35rem;
+    }
+
+    .icon-stacks::after {
+        left: -130px;
+        width: 35rem;
+    }
+
+    .pjt-box::after {
+        left: 120px;
+        width: 30rem;
+    }
+
+    .pjt-img {
+        display: none;
+    }
+
+    .pjt-box {
+        width: 50rem;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width: 61.563rem) {
+    .footer-txt {
+        padding: 0 2rem 0 2rem;
+    }
+}
+
+@media (max-width: 53.75rem) {
+    .do-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 51.25rem) {
+
+    .img-container::after {
+        left: 95px
+    }
+
+    .do-box::after {
+        left: 150px;
+        width: 35rem;
+    }
+
+    .icon-stacks::after {
+        left: -225px;
+        width: 35rem;
+    }
+
+    .pjt-box::after {
+        left: 75px;
+        width: 30rem;
+    }
+
+    .pjt-img {
+        display: none;
+    }
+
+    .pjt-box {
+        width: 50rem;
+        margin: auto;
+    }
+}
+
+@media (max-width: 48.75rem){
+    .pjt-box {
+        width: 45rem;
+        margin: auto;
+        /* padding: 1rem; */
+    }
+
+    .do-box::after {
+        left: 55px;
+    }
+}
+
+/* @media (max-width: 45rem) {
+   
+} */
+
+@media (max-width: 42.5rem) {
+    .pjt-desc {
+        width: 40rem;
+    }
+
+    .do-box::after {
+        left: 80px;
+        width: 25rem;
+    }
+
+    .icon-stacks::after {
+        left: -260px;
+        width: 30rem;
+    }
+
+    .pjt-box::after {
+        left: 65px;
+        width: 25rem;
+    }
+}
+
+@media (max-width: 43.75rem) {
+    .list-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 34.375rem) {
+    .img-container::after {
+        left: -35px
+    }
+
+    .do-box::after {
+        left: -10px;
+        width: 25rem;
+    }
+
+    .icon-stacks::after {
+        left: -300px;
+        width: 25rem;
+    }
+
+    .pjt-box::after {
+        left: -15px;
+        width: 25rem;
+    }
+}
+
+@media (max-width: 37.5rem) {
+    .pjt-desc {
+        width: 35rem;
+    }
+}
+
+
+@media (max-width: 38.75rem) {
+    .hero-hide {
+        display: none;
+    }
+}
+
+@media (max-width: 31.563rem) {
+    .img-container::after {
+        left: -35px
+    }
+
+    .do-box::after {
+        left: -10px;
+        width: 25rem;
+    }
+
+    .icon-stacks::after {
+        left: -300px;
+        width: 25rem;
+    }
+
+    .pjt-box::after {
+        left: -15px;
+        width: 25rem;
+    }
+
+    .pjt-img {
+        display: none;
+    }
+
+    .pjt-box {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 32.5rem) {
+    .img-container::after {
+        left: -35px
+    }
+
+    .do-box::after {
+        left: -10px;
+        width: 25rem;
+    }
+
+    .icon-stacks::after {
+        left: -300px;
+        width: 25rem;
+    }
+
+    .pjt-box::after {
+        left: -15px;
+        width: 25rem;
+    }
+
+    .hero-section {
+        padding: 5.5rem 0 12rem 0;
+    }
+
+    .about-me {
+        margin-bottom: -3rem;
+    }
+
+    .section-stack {
+        margin-bottom: 13rem;
+    }
+
+    .section-experience {
+        margin-bottom: 13rem;
+    }
+}
+
+@media (max-width: 27.5rem) {
+    .pjt-desc {
+        width: 28rem;
+    }
+
+    .pjt-box {
+        padding: 0;
+    }
+}
+
+@media (max-width: 27.188rem) {
+    .img-container::after {
+        left: -35px
+    }
+
+    .do-box::after {
+        left: 4px;
+        width: 21rem;
+    }
+
+    .icon-stacks::after {
+        left: -300px;
+        width: 21rem;
+    }
+
+    .pjt-box::after {
+        left: -15px;
+        width: 21rem;
+    }
+
+}
+
+
+@media (max-width: 26.25rem) {
+    .img-container::after {
+        left: -10px;
+        width: 20rem;
+    }
+
+    .do-box::after {
+        left: 10px;
+        width: 20rem;
+    }
+
+    .icon-stacks::after {
+        left: -310px;
+        width: 22rem;
+    }
+
+    .pjt-box::after {
+        left: 1px;
+        width: 20rem;
+    }
+
+    .pjt-img {
+        display: none;
+    }
+
+    .pjt-box {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 25rem) {
+    .pjt-desc {
+        width: 25rem;
+    }
+
+    .pjt-txt {
+        margin: 0 0 70px;
+    }
+}
+
+@media (max-width: 24.688rem) {
+    .name-dev {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 24.438rem) {
+    .img-container::after {
+        left: -10px;
+        width: 20rem;
+    }
+
+    .do-box::after {
+        left: 10px;
+        width: 18rem;
+    }
+
+    .icon-stacks::after {
+        left: -310px;
+        width: 20rem;
+    }
+
+    .pjt-box::after {
+        left: -10px;
+        width: 19rem;
+    }
+
+}
